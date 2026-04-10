@@ -56,3 +56,9 @@ finally:
 
 Explicación
 El programa utiliza un arreglo de pines para controlar varios LEDs. Se enciende un LED a la vez generando un efecto de movimiento. Primero avanza en una dirección y luego regresa, creando un recorrido continuo.
+
+
+
+Autor
+Amador Solis Luis Daniel
+Grupo: 8S22
