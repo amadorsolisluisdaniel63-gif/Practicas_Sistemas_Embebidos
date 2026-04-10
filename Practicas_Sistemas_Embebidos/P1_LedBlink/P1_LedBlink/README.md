@@ -52,3 +52,22 @@ except KeyboardInterrupt:
 finally:
     GPIO.cleanup()
     print("GPIO limpiado. Programa finalizado.")
+
+
+Explicación
+
+El programa utiliza la librería RPi.GPIO para controlar un pin de salida en la Raspberry Pi.
+
+Se configura el modo BCM para usar la numeración interna de los pines.
+Se define el pin 18 como salida digital.
+Dentro de un ciclo infinito (while True), el LED se enciende, espera 1 segundo, se apaga y vuelve a esperar 1 segundo.
+El programa se detiene con Ctrl + C.
+Finalmente, se limpian los pines con GPIO.cleanup().
+
+Resultado esperado
+
+El LED conectado al GPIO 18 parpadea encendiéndose y apagándose cada segundo de forma continua hasta que el usuario detenga el programa.
+
+Autor
+Amador Solis Luis Daniel
+Grupo: 8S22
