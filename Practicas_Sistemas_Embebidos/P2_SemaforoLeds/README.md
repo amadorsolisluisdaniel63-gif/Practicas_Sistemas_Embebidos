@@ -49,3 +49,7 @@ except KeyboardInterrupt:
 
 finally:
     GPIO.cleanup()
+
+
+Explicación
+El programa controla tres LEDs conectados a la Raspberry Pi. Cada LED representa un color del semáforo. Se enciende uno a la vez siguiendo la secuencia rojo, amarillo y verde. Cada estado dura 60 segundos y se repite continuamente.
