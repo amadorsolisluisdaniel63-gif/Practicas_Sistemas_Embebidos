@@ -56,3 +56,6 @@ Explicación
 El programa utiliza PWM para variar la intensidad de los LEDs. Cada LED se enciende gradualmente aumentando su intensidad y luego se apaga disminuyéndola. Este proceso crea un efecto de atenuación.
 
 
+Autor
+Amador Solis Luis Daniel
+Grupo: 8S22
